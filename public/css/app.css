@@ -1,0 +1,41 @@
+/*
+	selectores ccs3
+
+	clases "."
+
+	id "#"
+
+	etiquetas "tag"
+*/
+
+#slider-libreria,#section2,#section-ingresar,#section-contacto,#section-carrito,#section-acerca{
+	margin-top: 30px;
+}
+
+/*color del boton activo*/
+
+.slider .indicators .indicator-item.active {
+  background-color: #311b92;
+}
+
+/*propiedades del boton inactivo*/
+.slider .indicators .indicator-item {
+  background-color: #78909c;
+  border: 2px solid #ffffff;
+ }
+
+ .p-section2,#p-acerca{
+ 	text-align: justify;
+ }
+
+ .btn-social{
+ 	margin-left: 20px;
+ }
+
+ #btn-ingresar,#btn-enviar{
+ 	background-color: #311b92;
+ }
+
+.error {
+	color: red;
+}
